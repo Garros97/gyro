@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             //on translation method of accelerometer
             @Override
             public void onTranslation(float tx, float ty, float ts) {
-                // THIS IS A COMMENT: set the color red if the device moves in positive x axis and make the beauty of the gyroscope.
+                // khvsjfuewboagelkguhsbofTHIS IS A COMMENT: set the color red if the device moves in positive x axis and make the beauty of the gyroscope...
                 if (tx > 1.0f) {
                     getWindow().getDecorView().setBackgroundColor(Color.RED);
                 }
